@@ -7,7 +7,7 @@
 <!--  MDB core JavaScript  -->
 <script type="text/javascript" src="js/mdb.min.js"></script>
 
-<script type="text/javascript" src="js/anotador/anotador.js"></script>
+
 
 <script type="text/javascript" src="js/addons/datatables.min.js"></script>
 

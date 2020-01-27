@@ -74,9 +74,14 @@ function eventListeners(){
 }
 
 function pedirPresupuesto(){
-    const dinero = prompt("Cual es tu presupuesto semanal?",0);
-    const totalPresupuesto = document.querySelector('#total');
-    totalPresupuesto.innerHTML = dinero;
-    const totalRestante = document.querySelector('#restante');
-    totalRestante.innerHTML = dinero;
+    const dinero = prompt('Cual es tu presupuesto Semanal?');
+
+    if(dinero === null || dinero === '') {
+          window.location.reload();
+     } else {
+       const totalPresupuesto = document.querySelector('#total');
+       totalPresupuesto.innerHTML = dinero;
+       const totalRestante = document.querySelector('#restante');
+       totalRestante.innerHTML = dinero;
+     }
 }

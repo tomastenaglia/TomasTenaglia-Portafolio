@@ -46,6 +46,7 @@
     </div>
   </section>
 </div>
+<script type="text/javascript" src="js/anotador/anotador.js"></script>
 <?php include('pie.php'); ?>
 </body>
 </html>
